@@ -7,7 +7,7 @@ body {
     height: 150px;
     width: 150px;
     overflow: hidden;
-    border: solid 2px #3882F6;
+    border: solid 3px #3882F6;
     border-radius: 10px;
 }
 .hero-text-container{
@@ -29,6 +29,27 @@ body {
     gap: 60px;
     margin: 100px;
     justify-content: space-between;
+    flex-direction: column;
+    max-width: 900px;
+    text-align: justify;
+}
+.call-to-action{
+    min-width: 900px;
+    min-height: 150px;
+    flex-grow: 0;
+    background-color: #3b82f6;
+    display: flex;
+    border-radius: 10px;
+    padding: 16px;
+    justify-content: space-around;
+    align-items: center;
+}
+.call-to-action-container{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin: 100px;
+    justify-content: space-around;
     flex-direction: column;
     max-width: 900px;
     text-align: justify;
@@ -150,4 +171,29 @@ body{
     font-size: 24px;
     font-family: "Harlow Solid Italic", cursive;
     align-self: flex-end;
+}
+.call-to-action-button{
+    color: white;
+    font-weight: bold;
+    background-color: #3b82F6;
+    border: 2px solid white;
+    border-radius: 5px;
+    min-height: 30px;
+    min-width: 120px;
+}
+
+.call-to-action-text{
+    color: white;
+}
+
+.bigger{
+    font-size: 24px;
+    font-weight: 1000;
+}
+
+.footer{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
 }
