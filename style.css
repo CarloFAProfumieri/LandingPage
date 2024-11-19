@@ -3,6 +3,13 @@ body {
     flex-direction: column;
     align-items: stretch;
 }
+.image-container-item{
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    border: solid 2px #3882F6;
+    border-radius: 10px;
+}
 .hero-text-container{
     display: flex;
     flex-direction: column;
@@ -16,8 +23,26 @@ body {
     margin: 100px;
     justify-content: space-between;
 }
+.quote-container{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin: 100px;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 900px;
+    text-align: justify;
+}
 .information-container{
-    margin: 50px 0;
+    margin: 50px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.subtext{
+    color: gray;
+    max-width: 150px;
+    text-align: center;
 }
 .image-container{
     flex-shrink: 0;
@@ -56,7 +81,12 @@ p{
 .background-darkblue{
     background-color: #1F2937;
 }
-
+.background-lightgray{
+    background-color: #E5E7EB;
+}
+.background-white{
+    background-color: white;
+}
 .page-width{
     max-width: 1500px;
     padding: 12px;
@@ -82,6 +112,14 @@ div.header{
     align-items: center;
     text-decoration: none;
 }
+.item-list{
+    display: flex;
+    gap: 64px;
+    text-decoration: none;
+}
+.item-list li{
+    max-width: 200px;
+}
 ul{
     margin: 0;
     padding: 0;
@@ -101,4 +139,15 @@ body{
 .information-objects{
     display: flex;
     justify-content: space-between;
+}
+.quote-font{
+    font-size: 36px;
+    color: #1F2937;
+    font-family: "Harlow Solid Italic", cursive;
+}
+.attribution{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Harlow Solid Italic", cursive;
+    align-self: flex-end;
 }
